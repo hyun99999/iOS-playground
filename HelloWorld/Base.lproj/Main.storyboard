@@ -84,7 +84,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0A-vr-pMC">
-                                <rect key="frame" x="433" y="361" width="30" height="24"/>
+                                <rect key="frame" x="433" y="359" width="30" height="24"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -95,9 +95,9 @@
                         <constraints>
                             <constraint firstItem="9Yh-u1-I7o" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="1Ql-7J-qrb"/>
                             <constraint firstItem="GEv-tC-T6y" firstAttribute="leading" secondItem="XQD-IV-ibR" secondAttribute="trailing" constant="16" id="3Kf-HN-b1G"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S0A-vr-pMC" secondAttribute="bottom" constant="8" id="5g7-27-Sc5"/>
                             <constraint firstItem="eR7-cK-aUC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7Ua-V8-TBS"/>
                             <constraint firstItem="GEv-tC-T6y" firstAttribute="centerY" secondItem="XQD-IV-ibR" secondAttribute="centerY" id="AgH-JT-ueP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S0A-vr-pMC" secondAttribute="bottom" constant="10" id="Dc6-0U-PKc"/>
                             <constraint firstItem="9Yh-u1-I7o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JJS-zy-gpH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eoB-zg-njL" secondAttribute="trailing" constant="20" id="LjN-6N-s4V"/>
                             <constraint firstItem="XQD-IV-ibR" firstAttribute="leading" secondItem="ktS-qe-GdX" secondAttribute="trailing" constant="16" id="QZI-cX-Ib4"/>
