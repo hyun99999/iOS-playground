@@ -8,3 +8,6 @@
 sf symbol
 
 auto layout
+
+커밋 규칙
+참조 : https://velog.io/@recordboy/깃-커밋-메시지-컨벤션Git-Commit-Message-Convention
