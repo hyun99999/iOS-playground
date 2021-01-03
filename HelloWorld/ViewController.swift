@@ -25,6 +25,5 @@ class ViewController: UIViewController {
     @IBAction func touchUpResetButton(_ sender : UIButton){
         print("touch up reset button")
     }
-    @IBAction func 
 }
 
