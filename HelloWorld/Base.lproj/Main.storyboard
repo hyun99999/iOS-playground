@@ -127,13 +127,77 @@
             </objects>
             <point key="canvasLocation" x="131.91964285714286" y="71.014492753623188"/>
         </scene>
+        <!--Credit View Controller-->
+        <scene sceneID="10v-02-10V">
+            <objects>
+                <viewController id="FAD-Ze-Nc1" customClass="CreditViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HpX-B6-Mgh">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yagom_symbol" translatesAutoresizingMaskIntoConstraints="NO" id="IVD-Na-QVA">
+                                <rect key="frame" x="64" y="107" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="465-ny-5Gf"/>
+                                    <constraint firstAttribute="height" constant="200" id="CaT-Cr-l63"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67i-aO-jUH">
+                                <rect key="frame" x="64" y="20" width="35" height="33"/>
+                                <state key="normal" image="xmark" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="medium">
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                    </preferredSymbolConfiguration>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mg1-06-f08">
+                                <rect key="frame" x="284" y="20" width="548" height="353"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">hello world!
+
+i'm hyungyu!
+
+my github : 
+https://github.com/hyun99999</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MFy-n3-95d"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="67i-aO-jUH" firstAttribute="leading" secondItem="MFy-n3-95d" secondAttribute="leading" constant="20" id="HVz-pb-E5R"/>
+                            <constraint firstItem="MFy-n3-95d" firstAttribute="trailing" secondItem="mg1-06-f08" secondAttribute="trailing" constant="20" id="SZ5-87-SdX"/>
+                            <constraint firstItem="MFy-n3-95d" firstAttribute="bottom" secondItem="mg1-06-f08" secondAttribute="bottom" constant="20" id="aIB-kJ-s4R"/>
+                            <constraint firstItem="mg1-06-f08" firstAttribute="top" secondItem="MFy-n3-95d" secondAttribute="top" constant="20" id="bGn-XF-ASy"/>
+                            <constraint firstItem="mg1-06-f08" firstAttribute="leading" secondItem="IVD-Na-QVA" secondAttribute="trailing" constant="20" id="evj-IC-4FC"/>
+                            <constraint firstItem="IVD-Na-QVA" firstAttribute="centerY" secondItem="HpX-B6-Mgh" secondAttribute="centerY" id="jCz-G6-7Pa"/>
+                            <constraint firstItem="67i-aO-jUH" firstAttribute="top" secondItem="MFy-n3-95d" secondAttribute="top" constant="20" id="kSo-c7-gGA"/>
+                            <constraint firstItem="IVD-Na-QVA" firstAttribute="leading" secondItem="67i-aO-jUH" secondAttribute="leading" id="mCd-AB-5og"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lhL-Sa-xtn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="792.85714285714278" y="76.811594202898561"/>
+        </scene>
     </scenes>
     <resources>
         <image name="checkmark.seal.fill" catalog="system" width="128" height="128"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="memories" catalog="system" width="128" height="110"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <image name="yagom_symbol" width="167" height="160.5"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="separatorColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
