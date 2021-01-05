@@ -82,6 +82,9 @@
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                     </preferredSymbolConfiguration>
                                 </state>
+                                <connections>
+                                    <segue destination="FAD-Ze-Nc1" kind="presentation" modalTransitionStyle="crossDissolve" id="ICA-jx-7AM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0A-vr-pMC">
                                 <rect key="frame" x="433" y="359" width="30" height="24"/>
@@ -149,6 +152,9 @@
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                     </preferredSymbolConfiguration>
                                 </state>
+                                <connections>
+                                    <action selector="touchUpDismissButton:" destination="FAD-Ze-Nc1" eventType="touchUpInside" id="Pwl-HL-M1W"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mg1-06-f08">
                                 <rect key="frame" x="284" y="20" width="548" height="353"/>
