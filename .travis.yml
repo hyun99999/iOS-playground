@@ -1,4 +1,4 @@
 language: objective-c
-xcode_project: HelloWorld.xcodeproj # path to your xcodeproj folder
+xcode_project: xcode/practice/HelloWorld/HelloWorld.xcodeproj # path to your xcodeproj folder
 xcode_scheme: HelloWorld
 xcode_destination: platform=iOS Simulator,OS=14.3,name=iPhone 11 Pro
