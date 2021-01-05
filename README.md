@@ -1,8 +1,6 @@
 # updownGame-iOS-Practice
 숫자를 맞추는 updownGame
 
-[![Build Status](https://travis-ci.com/hyun99999/updownGame-iOS-Practice.svg?branch=main)](https://travis-ci.com/hyun99999/updownGame-iOS-Practice)
-
 travis 참조 문서
 https://docs.travis-ci.com/user/languages/objective-c/
 
