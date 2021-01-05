@@ -1,6 +1,4 @@
-{
-  "language": "objective-c",
-  "os": [
-    "osx"
-  ]
-}
+language: objective-c
+xcode_project: HelloWorld.xcodeproj # path to your xcodeproj folder
+xcode_scheme: MyNewProjectTests
+xcode_destination: platform=iOS Simulator,OS=11.1,name=iPhone 11Pro
