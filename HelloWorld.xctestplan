@@ -1,0 +1,23 @@
+{
+  "configurations" : [
+    {
+      "id" : "E16BD750-6506-4352-814B-273188E33237",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HelloWorld.xcodeproj",
+      "identifier" : "F827CDC425A0931600287804",
+      "name" : "HelloWorld"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}
