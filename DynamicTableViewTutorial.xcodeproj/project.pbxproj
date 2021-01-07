@@ -13,6 +13,8 @@
 		F8C67E8D25A6DEE5008270B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C67E8B25A6DEE5008270B0 /* Main.storyboard */; };
 		F8C67E8F25A6DEEA008270B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C67E8E25A6DEEA008270B0 /* Assets.xcassets */; };
 		F8C67E9225A6DEEA008270B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C67E9025A6DEEA008270B0 /* LaunchScreen.storyboard */; };
+		F8C67E9B25A6E057008270B0 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C67E9A25A6E057008270B0 /* MyTableViewCell.xib */; };
+		F8C67E9E25A6ED88008270B0 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C67E9D25A6ED88008270B0 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F8C67E8E25A6DEEA008270B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8C67E9125A6DEEA008270B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8C67E9325A6DEEA008270B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C67E9A25A6E057008270B0 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		F8C67E9D25A6ED88008270B0 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				F8C67E8525A6DEE5008270B0 /* AppDelegate.swift */,
 				F8C67E8725A6DEE5008270B0 /* SceneDelegate.swift */,
 				F8C67E8925A6DEE5008270B0 /* ViewController.swift */,
+				F8C67E9D25A6ED88008270B0 /* MyTableViewCell.swift */,
 				F8C67E8B25A6DEE5008270B0 /* Main.storyboard */,
+				F8C67E9A25A6E057008270B0 /* MyTableViewCell.xib */,
 				F8C67E8E25A6DEEA008270B0 /* Assets.xcassets */,
 				F8C67E9025A6DEEA008270B0 /* LaunchScreen.storyboard */,
 				F8C67E9325A6DEEA008270B0 /* Info.plist */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8C67E9225A6DEEA008270B0 /* LaunchScreen.storyboard in Resources */,
+				F8C67E9B25A6E057008270B0 /* MyTableViewCell.xib in Resources */,
 				F8C67E8F25A6DEEA008270B0 /* Assets.xcassets in Resources */,
 				F8C67E8D25A6DEE5008270B0 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8C67E8A25A6DEE5008270B0 /* ViewController.swift in Sources */,
+				F8C67E9E25A6ED88008270B0 /* MyTableViewCell.swift in Sources */,
 				F8C67E8625A6DEE5008270B0 /* AppDelegate.swift in Sources */,
 				F8C67E8825A6DEE5008270B0 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T8C9SSEX5G;
 				INFOPLIST_FILE = DynamicTableViewTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T8C9SSEX5G;
 				INFOPLIST_FILE = DynamicTableViewTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
