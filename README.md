@@ -1,5 +1,5 @@
 # DynamicTableViewTutorial-iOS-practice
-dynamic table 을 만드는 튜토리얼
+self-size cell 이용한 dynamic table 만드는 튜토리얼
 
 ## 완성
 <img src = "https://user-images.githubusercontent.com/69136340/103878907-73478a80-511a-11eb-96e4-02be55b76bcb.png" width = "400">
