@@ -1,24 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="scrollviewTutorial_iOS_practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0no-9h-Djo">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQY-7O-oAF">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1310"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제품리뷰" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWa-Sd-3Ft">
+                                                <rect key="frame" x="10" y="10" width="59" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOR-Vn-Bgz">
+                                                <rect key="frame" x="10" y="38.5" width="394" height="487"/>
+                                                <mutableString key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6V-kV-acn">
+                                                <rect key="frame" x="10" y="540.5" width="44.5" height="21"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0O-3i-ysy">
+                                                <rect key="frame" x="10" y="569.5" width="394" height="730.5"/>
+                                                <mutableString key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="s0O-3i-ysy" firstAttribute="top" secondItem="h6V-kV-acn" secondAttribute="bottom" constant="8" id="ADL-ql-aM3"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="h6V-kV-acn" secondAttribute="trailing" constant="10" id="NcL-jK-rZN"/>
+                                            <constraint firstItem="h6V-kV-acn" firstAttribute="top" secondItem="AOR-Vn-Bgz" secondAttribute="bottom" constant="15" id="SDG-vh-T2g"/>
+                                            <constraint firstItem="AOR-Vn-Bgz" firstAttribute="leading" secondItem="JQY-7O-oAF" secondAttribute="leading" constant="10" id="UTk-ef-5gt"/>
+                                            <constraint firstItem="h6V-kV-acn" firstAttribute="leading" secondItem="JQY-7O-oAF" secondAttribute="leading" constant="10" id="a7q-Er-ZgZ"/>
+                                            <constraint firstAttribute="bottom" secondItem="s0O-3i-ysy" secondAttribute="bottom" constant="10" id="h8T-I9-zdB"/>
+                                            <constraint firstItem="HWa-Sd-3Ft" firstAttribute="leading" secondItem="JQY-7O-oAF" secondAttribute="leading" constant="10" id="hM3-ct-fBq"/>
+                                            <constraint firstItem="HWa-Sd-3Ft" firstAttribute="top" secondItem="JQY-7O-oAF" secondAttribute="top" constant="10" id="iXY-7d-0sR"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AOR-Vn-Bgz" secondAttribute="trailing" constant="10" id="tGO-KZ-QoH"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="s0O-3i-ysy" secondAttribute="trailing" constant="10" id="u3w-Mt-ujR"/>
+                                            <constraint firstItem="s0O-3i-ysy" firstAttribute="leading" secondItem="JQY-7O-oAF" secondAttribute="leading" constant="10" id="uz4-52-pYm"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HWa-Sd-3Ft" secondAttribute="trailing" constant="10" id="xMK-Bi-lKV"/>
+                                            <constraint firstItem="AOR-Vn-Bgz" firstAttribute="top" secondItem="HWa-Sd-3Ft" secondAttribute="bottom" constant="8" id="zCV-tN-hTv"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="JQY-7O-oAF" firstAttribute="trailing" secondItem="Ldt-iY-PJA" secondAttribute="trailing" id="2XM-ED-X7z"/>
+                                    <constraint firstItem="JQY-7O-oAF" firstAttribute="width" secondItem="PgT-PZ-aJT" secondAttribute="width" id="Gx2-BG-GjV"/>
+                                    <constraint firstItem="JQY-7O-oAF" firstAttribute="top" secondItem="Ldt-iY-PJA" secondAttribute="top" id="eX5-7J-SOr"/>
+                                    <constraint firstItem="JQY-7O-oAF" firstAttribute="bottom" secondItem="Ldt-iY-PJA" secondAttribute="bottom" id="j2w-RK-Shb"/>
+                                    <constraint firstItem="JQY-7O-oAF" firstAttribute="leading" secondItem="Ldt-iY-PJA" secondAttribute="leading" id="q62-SD-VXS"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Ldt-iY-PJA"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="PgT-PZ-aJT"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="0no-9h-Djo" secondAttribute="bottom" id="36a-Tu-a2w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0no-9h-Djo" secondAttribute="trailing" id="D0b-zi-avf"/>
+                            <constraint firstItem="0no-9h-Djo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jKr-H4-IgT"/>
+                            <constraint firstItem="0no-9h-Djo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yNx-Lf-2Sw"/>
+                        </constraints>
                     </view>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="51" y="-72"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
