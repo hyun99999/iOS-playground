@@ -7,11 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //상단 네입게이션 바 부분 히든 처리.
+        self.navigationController?.isNavigationBarHidden = true
+        
+        
     }
 
 
