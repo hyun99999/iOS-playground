@@ -1,4 +1,4 @@
-# DynamicTableViewTutorial-iOS-practice
+# dynamicTableViewTutorial-iOS-practice
 self-size cell 이용한 dynamic table 만드는 튜토리얼
 
 ## 완성
