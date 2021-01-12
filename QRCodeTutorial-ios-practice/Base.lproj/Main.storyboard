@@ -25,7 +25,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEn-h3-1fB">
-                                <rect key="frame" x="130" y="712" width="154" height="50"/>
+                                <rect key="frame" x="146" y="712" width="122" height="50"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="n6r-Pd-5wI"/>
@@ -38,10 +38,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="X2K-70-R8r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8po-Iu-nLE"/>
-                            <constraint firstItem="LEn-h3-1fB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="130" id="F0X-nq-Xgv"/>
                             <constraint firstItem="X2K-70-R8r" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GrG-dW-LyI"/>
                             <constraint firstItem="LEn-h3-1fB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O44-di-GUM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LEn-h3-1fB" secondAttribute="trailing" constant="130" id="UHA-yn-l2C"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LEn-h3-1fB" secondAttribute="bottom" constant="100" id="ULt-pW-CsY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="X2K-70-R8r" secondAttribute="bottom" id="Uz7-1o-4Xh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X2K-70-R8r" secondAttribute="trailing" id="g1A-4N-aXp"/>

@@ -49,7 +49,7 @@ class MainViewController: UIViewController, QRCodeReaderViewControllerDelegate {
     }
     
     //MARK: - fileprivate methods
-    @objc fileprivate func qrcodeReaderLaunch(){
+    @objc func qrcodeReaderLaunch(){
         print("MainViewController - qrcodeReaderLaunch called")
         // Retrieve the QRCode content
           // By using the delegate pattern
@@ -59,12 +59,18 @@ class MainViewController: UIViewController, QRCodeReaderViewControllerDelegate {
           readerVC.completionBlock = { (result: QRCodeReaderResult?) in
             print(result)
             //옵셔널 값 언랩
-            guard let scannedUrlString = result?.value else { return }
-            print("scannedUrlString : \(scannedUrlString)")
-            
-            let scannedUrl = URL(string: scannedUrlString)
-            //웹 뷰에 url 띄우기
-            self.webView.load(URLRequest(url: scannedUrl!))
+            if let unwrappedResult = (result?.value)?.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
+                let unwrappedUrl = URL(string: unwrappedResult)
+                //웹 뷰에 url 띄우기
+                if let url = unwrappedUrl{
+                    self.webView.load(URLRequest(url: url))
+                }
+            }
+            //강제 추출
+//            guard let scannedUrlString = result?.value else { return }
+//            let scannedUrl = URL(string: scannedUrlString)
+//            //웹 뷰에 url 띄우기
+//            self.webView.load(URLRequest(url: scannedUrl!))
           }
 
           // Presents the readerVC as modal form sheet
