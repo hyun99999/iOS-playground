@@ -58,6 +58,13 @@ class MainViewController: UIViewController, QRCodeReaderViewControllerDelegate {
           // Or by using the closure pattern
           readerVC.completionBlock = { (result: QRCodeReaderResult?) in
             print(result)
+            //옵셔널 값 언랩
+            guard let scannedUrlString = result?.value else { return }
+            print("scannedUrlString : \(scannedUrlString)")
+            
+            let scannedUrl = URL(string: scannedUrlString)
+            //웹 뷰에 url 띄우기
+            self.webView.load(URLRequest(url: scannedUrl!))
           }
 
           // Presents the readerVC as modal form sheet
