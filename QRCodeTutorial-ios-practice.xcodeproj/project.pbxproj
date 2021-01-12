@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F8A74C7725AD613C004E7B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A74C7625AD613C004E7B82 /* AppDelegate.swift */; };
 		F8A74C7925AD613C004E7B82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A74C7825AD613C004E7B82 /* SceneDelegate.swift */; };
-		F8A74C7B25AD613C004E7B82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A74C7A25AD613C004E7B82 /* ViewController.swift */; };
+		F8A74C7B25AD613C004E7B82 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A74C7A25AD613C004E7B82 /* MainViewController.swift */; };
 		F8A74C7E25AD613C004E7B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A74C7C25AD613C004E7B82 /* Main.storyboard */; };
 		F8A74C8025AD6141004E7B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A74C7F25AD6141004E7B82 /* Assets.xcassets */; };
 		F8A74C8325AD6141004E7B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A74C8125AD6141004E7B82 /* LaunchScreen.storyboard */; };
+		F8A74C8E25AD685A004E7B82 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A74C8D25AD685A004E7B82 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8A74C7325AD613C004E7B82 /* QRCodeTutorial-ios-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QRCodeTutorial-ios-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A74C7625AD613C004E7B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8A74C7825AD613C004E7B82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8A74C7A25AD613C004E7B82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8A74C7A25AD613C004E7B82 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F8A74C7D25AD613C004E7B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8A74C7F25AD6141004E7B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8A74C8225AD6141004E7B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8A74C8425AD6141004E7B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A74C8D25AD685A004E7B82 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A74C8E25AD685A004E7B82 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				F8A74C7525AD613C004E7B82 /* QRCodeTutorial-ios-practice */,
 				F8A74C7425AD613C004E7B82 /* Products */,
+				F8A74C8C25AD6858004E7B82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +62,21 @@
 			children = (
 				F8A74C7625AD613C004E7B82 /* AppDelegate.swift */,
 				F8A74C7825AD613C004E7B82 /* SceneDelegate.swift */,
-				F8A74C7A25AD613C004E7B82 /* ViewController.swift */,
+				F8A74C7A25AD613C004E7B82 /* MainViewController.swift */,
 				F8A74C7C25AD613C004E7B82 /* Main.storyboard */,
 				F8A74C7F25AD6141004E7B82 /* Assets.xcassets */,
 				F8A74C8125AD6141004E7B82 /* LaunchScreen.storyboard */,
 				F8A74C8425AD6141004E7B82 /* Info.plist */,
 			);
 			path = "QRCodeTutorial-ios-practice";
+			sourceTree = "<group>";
+		};
+		F8A74C8C25AD6858004E7B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8A74C8D25AD685A004E7B82 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A74C7B25AD613C004E7B82 /* ViewController.swift in Sources */,
+				F8A74C7B25AD613C004E7B82 /* MainViewController.swift in Sources */,
 				F8A74C7725AD613C004E7B82 /* AppDelegate.swift in Sources */,
 				F8A74C7925AD613C004E7B82 /* SceneDelegate.swift in Sources */,
 			);
