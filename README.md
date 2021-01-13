@@ -9,3 +9,5 @@ scrollview 를 이용해서 dynamic scrollview 튜토리얼
 3. content layout guide 는 스크롤이 가능한 영역이다. 
 4. 스크롤뷰 안에 들어가는 view 의 앵커와 content layout guide 의 앵커를 일치시킨다. -> scroll view 에 view 가 꽉 찬다.
 5. 스크롤 가능한 영역 크기 조절 - frame layout guide 와 view 의 가로크기를 일치시킨다.
+
+참고예제 : [개발하는 정대리]https://www.youtube.com/watch?v=MXJffcoWRlw&list=PLgOlaPUIbynpvYsyKTrH2bpVlOCHkz6OY&index=5
