@@ -15,8 +15,8 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //상단 네입게이션 바 부분 히든 처리.
-//        self.navigationController?.isNavigationBarHidden = true
-//        loginBtn.addTarget(self, action: #selector(moveToMainViewController), for: .touchUpInside)
+        self.navigationController?.isNavigationBarHidden = true
+        loginBtn.addTarget(self, action: #selector(moveToMainViewController), for: .touchUpInside)
         
     }
 //스토리보드로 작성
