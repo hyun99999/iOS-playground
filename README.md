@@ -9,3 +9,5 @@ self-size cell 이용한 dynamic table 만드는 튜토리얼
 - stack view 를 사용해서 가로,세로로 라벨과 버튼 등을 넣어서 제작
 - nib file 을 사용해 table cell 제작 후 연결
 - extension 을 통한 확장
+
+참고예제:[개발하는 정대리]https://www.youtube.com/watch?v=Z_aJWjarRpg&list=PLgOlaPUIbynpvYsyKTrH2bpVlOCHkz6OY&index=4
