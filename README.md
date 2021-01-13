@@ -1,9 +1,11 @@
 # navigationViewControllerTutorial-iOS-practice
-stack 구조를 이해하고 navigationViewController 를 통해 화면을 전환하는 튜토리얼
+> stack 구조를 이해하고 navigationViewController 를 통해 화면을 전환하는 튜토리얼에서 이어서 진행
+- 조건문을 활용해서 버튼을 누르면 배경화면이 바뀌도록 함.
 
 <img src = "https://user-images.githubusercontent.com/69136340/104200654-4376ea80-546c-11eb-9fbd-501ff7beff8a.png" width = "400">
-<img src = "https://user-images.githubusercontent.com/69136340/104200658-44a81780-546c-11eb-9366-f69e14a7a5bb.png" width = "400">
+<img src = "https://user-images.githubusercontent.com/69136340/104449973-c5891f80-55e2-11eb-8c57-3f6e29d2fc22.png" width = "400">
+<img src = "https://user-images.githubusercontent.com/69136340/104449981-c8841000-55e2-11eb-9316-a1a347cd861e.png" width = "400">
 
-- navigation controller 에서 연결하면 연결되는 페이지가 스택에 쌓이고(push) 네비게이션 바의 뒤로가기를 누르면 pop 되면 뒤로가기 실행.
-- 이 튜토리얼은 코드를 통해 네비게이션 바를 히든처리하고 pop 을 구현한다.
-- 버튼에 액션을 등록하여 popViewController 통해서 스택구조에 쌓인 뷰를 pop 시켜 뒤로가기를 구현.
+- 스토리보드가 아닌 코드로 navigationController 를 통해서 다른 view 를 추가.
+- 스토리보드가 아닌 코드로 버튼과 레이블을 만들어서 뷰와 연결.
+- 조건문을 활용해서 이벤트를 작성하고 버튼에 연결.
