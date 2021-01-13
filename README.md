@@ -22,3 +22,7 @@ autolayout 을 익히기 위한 튜토리얼
 
 - 앵커를 더 우선적을 여김.
 - 충돌 시(빨간선) 빌드하면 constraints 를 선택해 지워서 해결해야 한다.
+
+참고예제 : [개발하는 정대리]
+https://www.youtube.com/watch?v=1McZ6ukrmFo&list=PLgOlaPUIbynpvYsyKTrH2bpVlOCHkz6OY
+https://www.youtube.com/watch?v=rXA-kK3z4K4&list=PLgOlaPUIbynpvYsyKTrH2bpVlOCHkz6OY&index=2
