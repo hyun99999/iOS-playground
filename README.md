@@ -9,3 +9,5 @@
 - 스토리보드가 아닌 코드로 navigationController 를 통해서 다른 view 를 추가.
 - 스토리보드가 아닌 코드로 버튼과 레이블을 만들어서 뷰와 연결.
 - 조건문을 활용해서 이벤트를 작성하고 버튼에 연결.
+
+참고 예제 : [개발하는 정대리]https://www.youtube.com/watch?v=_4Oap8pVFrE&list=PLgOlaPUIbynqRzpQBIdEDnjDdkVsjHqxK&index=7
