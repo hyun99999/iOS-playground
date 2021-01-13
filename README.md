@@ -46,4 +46,4 @@ if let unwrappedResult = (result?.value)?.addingPercentEncoding(withAllowedChara
 <img src ="https://user-images.githubusercontent.com/69136340/104292239-ecbaf080-54ff-11eb-8dad-da63547b177b.png" width="400">
 
 
-참고예제 : [개발하는 정대리]https://www.youtube.com/watch?v=Q5slh29MZ_I&list=PLgOlaPUIbynqRzpQBIdEDnjDdkVsjHqxK&index=5
+참고예제 : [개발하는 정대리]https://www.youtube.com/watch?v=Q5slh29MZ_I&list=PLgOlaPUIbynqRzpQBIdEDnjDdkVsjHqxK&index=5 
