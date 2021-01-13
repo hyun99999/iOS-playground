@@ -45,6 +45,9 @@
                                                 <state key="normal" title="Login">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="moveToMainViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a62-lP-pDa"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -91,6 +94,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="q7t-um-dQ1"/>
+                    <connections>
+                        <outlet property="loginBtn" destination="Q8U-Nx-o1S" id="E1c-T0-DTS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

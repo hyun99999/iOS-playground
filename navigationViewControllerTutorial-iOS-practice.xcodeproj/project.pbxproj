@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F84B960925AEE5BF0061B47A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B960825AEE5BF0061B47A /* MainViewController.swift */; };
 		F84E684C25AC756900085CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84E684B25AC756900085CC8 /* AppDelegate.swift */; };
 		F84E684E25AC756900085CC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84E684D25AC756900085CC8 /* SceneDelegate.swift */; };
 		F84E685025AC756900085CC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84E684F25AC756900085CC8 /* LoginViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F84B960825AEE5BF0061B47A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F84E684825AC756900085CC8 /* navigationViewControllerTutorial-iOS-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "navigationViewControllerTutorial-iOS-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84E684B25AC756900085CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F84E684D25AC756900085CC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			children = (
 				F84E686225AC822200085CC8 /* RegisterViewController.swift */,
 				F84E684F25AC756900085CC8 /* LoginViewController.swift */,
+				F84B960825AEE5BF0061B47A /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				F84E684C25AC756900085CC8 /* AppDelegate.swift in Sources */,
 				F84E684E25AC756900085CC8 /* SceneDelegate.swift in Sources */,
 				F84E686325AC822200085CC8 /* RegisterViewController.swift in Sources */,
+				F84B960925AEE5BF0061B47A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
