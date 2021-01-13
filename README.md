@@ -44,3 +44,6 @@ if let unwrappedResult = (result?.value)?.addingPercentEncoding(withAllowedChara
 ## 해결
 - 한글을 포함한 url의 qr코드도 실행. (https://namu.wiki/w/QR코드)
 <img src ="https://user-images.githubusercontent.com/69136340/104292239-ecbaf080-54ff-11eb-8dad-da63547b177b.png" width="400">
+
+
+참고예제 : [개발하는 정대리]https://www.youtube.com/watch?v=Q5slh29MZ_I&list=PLgOlaPUIbynqRzpQBIdEDnjDdkVsjHqxK&index=5
