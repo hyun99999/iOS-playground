@@ -7,3 +7,5 @@
 
 - KRProgressHUD 외부 라이브러리를 이용해서 progress bar 를 만들어보았다.
 - completion block 을 통해서 2초의 딜레이 이후에 메인으로 신호를 보내고 메인에서 label 의 내용을 바꾸었다.
+
+출처:[개발하는정대리]https://www.youtube.com/watch?v=5SGEuSgiM04&list=PLgOlaPUIbynqRzpQBIdEDnjDdkVsjHqxK&index=10
