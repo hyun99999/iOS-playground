@@ -23,11 +23,7 @@ class CustomPopUpViewController: UIViewController {
         gotoNaverBtn.layer.cornerRadius = 10
     }
     
-    @IBAction func onBgBtnClicked(_ sender: UIButton) {
-        print("customPopUpViewController - onBgBtnClicked() called")
-        //현재 창 닫기
-        self.dismiss(animated: true, completion: nil)
-    }
+    //MARK: - IBAction
     @IBAction func onGotoBtnClicked(_ sender: UIButton) {
         print("customPopUpViewController - onGotoBtnClicked() called")
         //창 닫기
@@ -42,5 +38,8 @@ class CustomPopUpViewController: UIViewController {
         }
     }
     
+    @IBAction func onGotoBtnNaverClicked(_ sender: Any) {
+        
+    }
     
 }
