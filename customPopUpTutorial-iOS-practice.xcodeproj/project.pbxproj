@@ -16,6 +16,7 @@
 		F84B962E25AFFFD00061B47A /* PopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84B962D25AFFFD00061B47A /* PopUp.storyboard */; };
 		F84B963125B005860061B47A /* CustomPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B963025B005860061B47A /* CustomPopUpViewController.swift */; };
 		F84B963625B00EEB0061B47A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84B963525B00EEB0061B47A /* WebKit.framework */; };
+		F8F0192525B2DF0600070D90 /* PopUpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0192425B2DF0600070D90 /* PopUpDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F84B962D25AFFFD00061B47A /* PopUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopUp.storyboard; sourceTree = "<group>"; };
 		F84B963025B005860061B47A /* CustomPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpViewController.swift; sourceTree = "<group>"; };
 		F84B963525B00EEB0061B47A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F8F0192425B2DF0600070D90 /* PopUpDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				F84B962525AFFDB80061B47A /* Info.plist */,
 				F84B962D25AFFFD00061B47A /* PopUp.storyboard */,
 				F84B963025B005860061B47A /* CustomPopUpViewController.swift */,
+				F8F0192425B2DF0600070D90 /* PopUpDelegate.swift */,
 			);
 			path = "customPopUpTutorial-iOS-practice";
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F0192525B2DF0600070D90 /* PopUpDelegate.swift in Sources */,
 				F84B961C25AFFDB10061B47A /* ViewController.swift in Sources */,
 				F84B961825AFFDB10061B47A /* AppDelegate.swift in Sources */,
 				F84B961A25AFFDB10061B47A /* SceneDelegate.swift in Sources */,

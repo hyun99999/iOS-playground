@@ -15,6 +15,8 @@ class CustomPopUpViewController: UIViewController {
     
     var gotoBtnCompletionClosure: (()-> Void)?
     
+    var myPopUpDelegate: PopUpDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("CustomPopUpViewController - viewDidLoad() called")
@@ -38,8 +40,9 @@ class CustomPopUpViewController: UIViewController {
         }
     }
     
-    @IBAction func onGotoBtnNaverClicked(_ sender: Any) {
-        
+    @IBAction func onGotoNaverBtnClicked(_ sender:  UIButton) {
+        print("CustomPopUpViewController - onGotoBtnNaverClicked")
+        myPopUpDelegate?.onGotoNaverBtnClicked()
     }
     
 }
