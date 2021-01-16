@@ -11,6 +11,7 @@ class CustomPopUpViewController: UIViewController {
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var gotoBtn: UIButton!
     @IBOutlet weak var bgBtn: UIButton!
+    @IBOutlet weak var gotoNaverBtn: UIButton!
     
     var gotoBtnCompletionClosure: (()-> Void)?
     
@@ -19,6 +20,7 @@ class CustomPopUpViewController: UIViewController {
         print("CustomPopUpViewController - viewDidLoad() called")
         contentView.layer.cornerRadius = 30
         gotoBtn.layer.cornerRadius = 10
+        gotoNaverBtn.layer.cornerRadius = 10
     }
     
     @IBAction func onBgBtnClicked(_ sender: UIButton) {

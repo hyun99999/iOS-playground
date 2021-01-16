@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         customPopUpVC.modalTransitionStyle = .crossDissolve
         //다른 뷰 컨트롤러를 보여준다.(네비게이션 컨트롤러가 아니기 때문에 이런 식으로 추가)
         self.present(customPopUpVC, animated: true, completion: nil)
-        
+         
     }
     
 
