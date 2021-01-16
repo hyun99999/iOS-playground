@@ -40,9 +40,11 @@ class CustomPopUpViewController: UIViewController {
         }
     }
     
-    @IBAction func onGotoNaverBtnClicked(_ sender:  UIButton) {
-        print("CustomPopUpViewController - onGotoBtnNaverClicked")
+    @IBAction func onGotoNaverBtnClicked(_ sender: UIButton) {
+        print("CustomPopUpViewController - onGotoNaverBtnClicked")
+//        self.dismiss(animated: true, completion: nil)
         myPopUpDelegate?.onGotoNaverBtnClicked()
+        self.dismiss(animated: true, completion: nil)
     }
     
 }

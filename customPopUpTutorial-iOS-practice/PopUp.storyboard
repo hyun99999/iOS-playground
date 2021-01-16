@@ -72,7 +72,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="onGotoBtnNaverClicked:" destination="A6j-dd-zx3" eventType="touchUpInside" id="tbT-C1-S1D"/>
+                                            <action selector="onGotoNaverBtnClicked:" destination="A6j-dd-zx3" eventType="touchUpInside" id="npl-dO-GEv"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyQ-cI-xbl">

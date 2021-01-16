@@ -50,6 +50,8 @@ class ViewController: UIViewController, PopUpDelegate {
     //MARK: - PopUpDelegate methods
     func onGotoNaverBtnClicked() {
         print("ViewController - onGotoNaverBtnClicked()")
+        let myNaverUrl = URL(string: "https://naver.com")
+        self.myWebView.load(URLRequest(url: myNaverUrl!))
     }
 
 }
