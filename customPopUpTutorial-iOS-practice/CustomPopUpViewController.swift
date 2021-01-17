@@ -9,6 +9,7 @@ import UIKit
 
 class CustomPopUpViewController: UIViewController {
     @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var gotoYoutubeBtn: UIButton!
     @IBOutlet weak var gotoBtn: UIButton!
     @IBOutlet weak var bgBtn: UIButton!
     @IBOutlet weak var gotoNaverBtn: UIButton!
@@ -23,6 +24,8 @@ class CustomPopUpViewController: UIViewController {
         contentView.layer.cornerRadius = 30
         gotoBtn.layer.cornerRadius = 10
         gotoNaverBtn.layer.cornerRadius = 10
+        gotoYoutubeBtn.layer.cornerRadius=10
+        
     }
     
     //MARK: - IBAction
@@ -47,4 +50,7 @@ class CustomPopUpViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func onYoutubeBtnClicked(_ sender: UIButton) {
+        print("CustomPopUpViewController - onYoutubeBtnClicked")
+    }
 }

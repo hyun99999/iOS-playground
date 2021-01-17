@@ -59,10 +59,23 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MVN-CS-ptQ">
-                                <rect key="frame" x="147" y="558" width="120" height="70"/>
+                                <rect key="frame" x="147" y="518" width="120" height="110"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWs-hM-neW">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YY-P8-SNe">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="sOi-ZH-IX4"/>
+                                        </constraints>
+                                        <state key="normal" title="Go to Youtube">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onYoutubeBtnClicked:" destination="A6j-dd-zx3" eventType="touchUpInside" id="PAe-R6-CYx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWs-hM-neW">
+                                        <rect key="frame" x="0.0" y="40" width="120" height="30"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="120" id="Xr1-gV-EYC"/>
@@ -76,7 +89,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyQ-cI-xbl">
-                                        <rect key="frame" x="0.0" y="40" width="120" height="30"/>
+                                        <rect key="frame" x="0.0" y="80" width="120" height="30"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="120" id="y6w-37-fGW"/>
@@ -110,6 +123,7 @@
                         <outlet property="contentView" destination="6C2-7K-bp1" id="vSS-5z-Hgx"/>
                         <outlet property="gotoBtn" destination="RyQ-cI-xbl" id="6HN-Cn-6te"/>
                         <outlet property="gotoNaverBtn" destination="MWs-hM-neW" id="m0V-RX-QWw"/>
+                        <outlet property="gotoYoutubeBtn" destination="3YY-P8-SNe" id="8aZ-bX-ATw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MlT-57-r7T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -121,6 +135,9 @@
         <image name="fishbowl" width="150" height="151"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

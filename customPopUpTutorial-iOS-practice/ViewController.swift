@@ -8,16 +8,24 @@
 import UIKit
 import WebKit
 
+let notificationName = "btnClickNotification"
+
 class ViewController: UIViewController, PopUpDelegate {
-    
-    
 
     @IBOutlet weak var myWebView: WKWebView!
     @IBOutlet weak var creatPopUpBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //notification 이라는 라디오센터
+        NotificationCenter.default.addObserver(self, selector: #selector(loadView), name: NSNotification.Name(rawValue: notificationName), object: nil)
     }
+    
+    @objc fileprivate func loadWebView(){
+        print("ViewController - loadWebView")
+    }
+    
     @IBAction func onCreatePopUpBtnClicked(_ sender: UIButton) {
         print("ViewController - onCreatePopUpBtnClicked()")
         //스토리 보드 가져오기
@@ -44,7 +52,7 @@ class ViewController: UIViewController, PopUpDelegate {
         customPopUpVC.myPopUpDelegate = self
         
         self.present(customPopUpVC, animated: true, completion: nil)
-         
+          
     }
     
     //MARK: - PopUpDelegate methods
