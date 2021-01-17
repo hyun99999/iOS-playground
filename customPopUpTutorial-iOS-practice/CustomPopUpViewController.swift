@@ -52,5 +52,9 @@ class CustomPopUpViewController: UIViewController {
     
     @IBAction func onYoutubeBtnClicked(_ sender: UIButton) {
         print("CustomPopUpViewController - onYoutubeBtnClicked")
+        //새로운 notification 을 만들기위해 .post 로 등록
+        NotificationCenter.default.post(name: Notification.Name(rawValue: notificationName), object: nil)
+        self.dismiss(animated: true, completion: nil)
+        
     }
 }

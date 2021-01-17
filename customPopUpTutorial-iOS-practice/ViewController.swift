@@ -14,16 +14,25 @@ class ViewController: UIViewController, PopUpDelegate {
 
     @IBOutlet weak var myWebView: WKWebView!
     @IBOutlet weak var creatPopUpBtn: UIButton!
+    
+    //notification 해제
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        //notification 이라는 라디오센터
+        //notification 이라는 라디오센터에서 notificationName 의 주파수를 맞춘다.
         NotificationCenter.default.addObserver(self, selector: #selector(loadView), name: NSNotification.Name(rawValue: notificationName), object: nil)
+        //등록을 했다면 해제도 해야한다.
     }
     
     @objc fileprivate func loadWebView(){
         print("ViewController - loadWebView")
+        let myYoutubeUrl = URL(string: "https://youtube.com")
+        self.myWebView.load(URLRequest(url: myYoutubeUrl!))
     }
     
     @IBAction func onCreatePopUpBtnClicked(_ sender: UIButton) {
