@@ -25,13 +25,13 @@ class ViewController: UIViewController, PopUpDelegate {
         // Do any additional setup after loading the view.
         
         //notification 이라는 라디오센터에서 notificationName 의 주파수를 맞춘다.
-        NotificationCenter.default.addObserver(self, selector: #selector(loadView), name: NSNotification.Name(rawValue: notificationName), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(loadWebView), name: NSNotification.Name(rawValue: notificationName), object: nil)
         //등록을 했다면 해제도 해야한다.
     }
     
     @objc fileprivate func loadWebView(){
         print("ViewController - loadWebView")
-        let myYoutubeUrl = URL(string: "https://youtube.com")
+        let myYoutubeUrl = URL(string: "https://www.youtube.com")
         self.myWebView.load(URLRequest(url: myYoutubeUrl!))
     }
     
@@ -39,7 +39,7 @@ class ViewController: UIViewController, PopUpDelegate {
         print("ViewController - onCreatePopUpBtnClicked()")
         //스토리 보드 가져오기
         let storyboard = UIStoryboard.init(name: "PopUp", bundle: nil)
-        //스토리보들르 통해 뷰컨트롤러 가져오기
+        //스토리보드를 통해 뷰컨트롤러 가져오기
         let customPopUpVC = storyboard.instantiateViewController(identifier: "AlertPopUpVC") as CustomPopUpViewController
 
         //뷰 컨트롤러가 보여지는 스타일
